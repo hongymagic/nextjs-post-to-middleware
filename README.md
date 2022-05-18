@@ -4,6 +4,10 @@
 
 None of these following examples work on Vercel, however they work locally when run via `next dev`.
 
+### Vercel function logs
+
+![image](https://user-images.githubusercontent.com/302730/168991284-0999fb27-3b42-4449-8824-373eca43ebab.png)
+
 ### JSON
 
 Failing to parse JSON body
