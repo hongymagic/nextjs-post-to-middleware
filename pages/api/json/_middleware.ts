@@ -10,6 +10,7 @@ export async function middleware(req: NextRequest, _ev: NextFetchEvent) {
 		const json = await req.json();
 
 		if (json) {
+			console.log("Found JSON!", json);
 			return new Response(JSON.stringify(json));
 		}
 	}

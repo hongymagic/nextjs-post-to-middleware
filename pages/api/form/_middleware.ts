@@ -10,6 +10,7 @@ export async function middleware(req: NextRequest, _ev: NextFetchEvent) {
 		const data = await req.formData();
 
 		if (data) {
+			console.log('Found data!', data);
 			return new Response(JSON.stringify(data));
 		}
 	}
