@@ -1,6 +1,8 @@
 ## Parsing POST request body in _middleware
 
-*None of these work at the moment* (See latest commit date for date reference).
+(See latest commit date for date reference).
+
+None of these following examples work on Vercel, however they work locally when run via `next dev`.
 
 ### JSON
 
@@ -13,7 +15,7 @@ await req.json()
 Produces the following:
 
 ```
-curl -X POST -H 'Content-Type: application/json' -d '[9, 1, 1]' http://localhost:3000/api/json
+curl -X POST -H 'Content-Type: application/json' -d '[9, 1, 1]' https://post-to-middleware.hongy.dev/api/json
 A server error has occurred
 
 EDGE_FUNCTION_INVOCATION_FAILED
