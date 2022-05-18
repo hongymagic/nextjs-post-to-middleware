@@ -24,7 +24,7 @@ EDGE_FUNCTION_INVOCATION_FAILED
 Failing to parse FormData
 
 ```ts
-await req.formDat()
+await req.formData()
 ```
 
 ```
